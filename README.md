@@ -10,7 +10,8 @@ An Automation Script which does the following tasks
     3. Service Requests for current day
 - Creates an HTML report and Excel report file.
 - Sends a mail to the team placing managers in cc with HTML report and Excel report file attached.
-    
+##
+
 ## How to configure and install
 
 - Download and extract files from Github.
@@ -20,6 +21,7 @@ An Automation Script which does the following tasks
   >
   >  ./setup.py
 - It download all required dependicies and provides permissions to required files.
+##
 
 ## Dependencies
 
@@ -27,6 +29,7 @@ An Automation Script which does the following tasks
 - Python
 - Pip
 - Python Libraries used ( pandas, numpy, xlrd, xlsxwriter, os, glob, sys, subprocess, datetime )
+##
 
 ## How to Run
 
@@ -34,6 +37,7 @@ An Automation Script which does the following tasks
 - Enter Manual Updates from team inside Manual_Updates.xlsx placed under Input folder.
 - Run 2_Send_Shift_Tracker.sh in terminal.
 - You will be asked whether to mail the report, Press Y/y to send or Press any other key to skip.
+##
 
 ## Info
 - Input folder contains manual_updates.xlsx and ticket dump downloaded from Service Now.
@@ -41,7 +45,10 @@ An Automation Script which does the following tasks
 - Configure folder contains setup.sh file.
 - Script is designed to handle any human errors and service restarts.
 - Script will terminate with an termination message and solution, if it encounters any deviations.
+##
 
 ## Sample Screenshot
 
 ![Mail_Report](Mail_Report_Sample.png)
+##
+
